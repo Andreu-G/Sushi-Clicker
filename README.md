@@ -11,4 +11,4 @@ You can **make** and **sell** Sushi by clicking the respective buttons. Addition
 
 You can also **upgrade** the **amount** of Sushi you get per click, as well as the **selling price** of every piece.
 
-![Sushi Clicker](https://i.imgur.com/GDmhyjF.png)
+![Sushi Clicker](https://i.imgur.com/sY8pyrF.png)
