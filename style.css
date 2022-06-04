@@ -1,0 +1,149 @@
+#PlayInfo_Sushi-img
+{
+    display: block;
+    margin: 0 auto;
+    padding-top: 35px;
+    max-width: 40px;
+}
+
+#PlayArea
+{
+    padding-top: 5%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#PlayArea_Sushi-img
+{
+    max-width: 80px;
+    align-self: center;
+}
+
+#PlayArea_Money-img
+{
+    max-width: 70px;
+    align-self: center;
+}
+
+
+#PlayArea_Btn-Sushi
+{
+    display: block;
+    width: 150px;
+    padding: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 5px 1px 0 rgb(0,0,0,0.3);
+    cursor: pointer;
+    background-color: #ffffAA;
+    margin-top: 10px;
+}
+
+#PlayArea_Btn-Sell
+{
+    display: block;
+    width: 90px;
+    padding: 1%;
+    border-radius: 3px;
+    margin: 0 auto;
+    box-shadow: 5px 5px 1px 0 rgb(0,0,0,0.3);
+    cursor: pointer;
+    background-color: #EEEEEE;
+    margin-top: 20px;
+}
+
+#PlayArea_Btn-SushiUpgrade, #PlayArea_Btn-PlayerUpgrade
+{
+    display: block;
+    margin: 0 auto;
+    margin-top: 8px;
+}
+
+#PlayArea_Btn-Sushi:hover
+{
+    background-color: #FFFFCC;
+}
+
+#PlayArea_Btn-Sushi:active
+{
+    transform: translateY(4px);
+    box-shadow: 2px 2px 1px 0 rgb(0,0,0,0.3);
+}
+
+#PlayArea_Btn-Sell:hover
+{
+    background-color: #DDDDDD;
+}
+
+#PlayArea_Btn-Sell:active
+{
+    transform: translateY(4px);
+    box-shadow: 2px 2px 1px 0 rgb(0,0,0,0.3);
+}
+
+#PlayArea_Sushi-group, #PlayArea_Money-group
+{
+    display: grid;
+    grid-template-areas:
+    "1 2 3";
+    justify-content: center;
+    grid-gap: 10px;
+}
+
+#UpgradeMenu
+{
+    display: grid;
+    grid-auto-flow: row;
+    grid-area: mid;
+}
+
+#Upgrades
+{
+    display: grid;
+    grid-template-areas:
+    "left mid right";
+    grid-auto-flow: row;
+}
+
+.UpgradeText
+{
+    margin: auto;
+}
+
+.UpgradeBtn
+{
+    max-width: 150px;
+    max-height: 20px;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#SushiAmount, #MoneyAmount
+{
+    display: block;
+    font-size: 70px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    position: relative;
+    margin: -12.5px 0 -12.5px 0;
+
+}
+
+#AutoSell
+{
+    display: block;
+}
+
+.Separator
+{
+    align-self: center;
+    margin: 0 10px 0 0;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+#SPS
+{
+    font-size: 50px;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sushi Clicker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="background-color: #ffb592;">
+  
+   <div id="PlayArea">
+
+        <div id="SPS">Sushi Per Second: 0 (Current) / 0 (Max)</div>
+
+        <div id="PlayArea_Sushi-group">
+            <img src="Sushi.png" alt="" id="PlayArea_Sushi-img">
+            <div class="Separator">:</div>
+            <div id="SushiAmount">0</div>
+        </div>
+
+        <div id="PlayArea_Money-group">
+            <img src="Dollar.png" alt="" id="PlayArea_Money-img">
+            <div class="Separator">:</div>
+            <div id="MoneyAmount">0</div>
+        </div>
+        <div>
+            <button type="button" id="PlayArea_Btn-Sushi" onclick="AddSushi('Player')">Make Sushi!</button>
+            <button type="button" id="PlayArea_Btn-PlayerUpgrade" onclick="Add_Manual()">Upgrade Click (Cost: $1)</button>
+        </div>  
+        <button type="button" id="PlayArea_Btn-Sell" onclick="SellSushi('1')">Sell Sushi</button>
+        <button type="button" id="PlayArea_Btn-SushiUpgrade" onclick="Sell_Upgrade()">Upgrade Sushi Selling Cost (Cost: $5)</button>
+        <label>
+            <input type="checkbox" style="margin-top: 25px;" onchange="AutoSellToggle()">
+            <span>Auto-Sell</span>
+        </label>
+   </div> 
+
+    <div id="PlayInfo">
+       <hr style="width: 350px; margin-top: 20px;">
+        <div id="Upgrades">
+            <div id="UpgradeMenu">
+                <div class="UpgradeText">
+                    🙂 Contract Worker (+1/s)
+                </div>
+                    <button type="button" class="UpgradeBtn" id="UpgradeBtn_Upgrade1" onclick="Add_Passive('Upgrade1')">Buy (Cost: $1)</button>
+                    <div class="UpgradeText">
+                        👨‍🍳 Contract Chef (+5/s)
+                    </div>
+                    <button type="button" class="UpgradeBtn" id="UpgradeBtn_Upgrade2" onclick="Add_Passive('Upgrade2')">Buy (Cost: $50)</button>
+                    <div class="UpgradeText">
+                        🍱 Buy Restaurant (+10/s)
+                    </div>
+                    <button type="button" class="UpgradeBtn" id="UpgradeBtn_Upgrade3" onclick="Add_Passive('Upgrade3')">Buy (Cost: $100)</button>
+                    <div class="UpgradeText">
+                        🏭   Buy Factory (+200/s)
+                    </div>
+                    <button type="button" class="UpgradeBtn" id="UpgradeBtn_Upgrade4" onclick="Add_Passive('Upgrade4')">Buy (Cost: $1000)</button>
+            </div>
+        </div>
+    </div>
+   <script src="main.js"></script>
+</body>
+</html>
