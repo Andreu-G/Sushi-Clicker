@@ -2,7 +2,7 @@
 # SushiClicker
 Make Sushi, sell Sushi, upgrade and hire workers to do the job for you!
 
-<strong>[Click here to play in your browser](https://andreu-g.github.io/SushiClicker/)</strong>
+<strong>[Click here to play in your browser](https://andreu-g.github.io/Sushi-Clicker/)</strong>
 <hr>
 
 This small game was strictly made with **HTML**, **CSS** and **JavaScript**. No external libraries or frameworks were used.
